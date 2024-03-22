@@ -1,0 +1,29 @@
+{
+  "name": "similiquenihil",
+  "version": "1.0.0",
+  "description": "Combine multiple decorators for DraftJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "export TESTING=true; mocha --reporter spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClementOrn/similiquenihil.git"
+  },
+  "keywords": [
+    "draftjs"
+  ],
+  "author": "JosefaJacobs",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ClementOrn/similiquenihil.git",
+  "dependencies": {
+    "immutable": "*"
+  },
+  "devDependencies": {
+    "draft-js": "^0.7.0",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
